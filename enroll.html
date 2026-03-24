@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Course Enrollment | SmartFromStreetAI</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="enroll-page">
+
+  <header class="navbar">
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="assets/images/logo.png" alt="SmartFromStreetAI Logo">
+        </a>
+      </div>
+
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="training.html">Training</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="enroll-section">
+    <div class="container">
+      <div class="enroll-card">
+        <div class="enroll-header">
+          <p class="enroll-tag">Course Registration</p>
+          <h1>Complete Your Enrollment</h1>
+          <p class="enroll-subtext">
+            Fill in your details below to reserve your spot.
+          </p>
+        </div>
+
+        <div class="selected-course-box">
+          <span>Selected Course</span>
+          <strong id="selectedCourse">Not selected</strong>
+        </div>
+
+        <form id="enrollForm" class="enroll-form">
+          <input type="hidden" id="courseName" name="courseName" />
+
+          <div class="form-group">
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" name="fullName" required />
+          </div>
+
+          <div class="form-group">
+            <label for="location">Location</label>
+            <input type="text" id="location" name="location" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+           <div class="form-group">
+            <label for="phone number">Phone number</label>
+            <input type="text" id="phone" name="phone number" required />
+          </div>
+
+          <div class="form-group">
+            <label for="mode">Available Mode of Training</label>
+            <select id="mode" name="mode" required>
+              <option value="">Select an option</option>
+              <option value="Online">Online</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="comment">Comment</label>
+            <textarea id="comment" name="comment" rows="5" placeholder="Any extra note..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-pay">
+            Submit & Pay →
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- PAYMENT POPUP -->
+  <div id="paymentPopup" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" id="closePaymentPopup">&times;</span>
+
+      <h2>Payment Details</h2>
+      <p>Please make payment to the account below:</p>
+
+      <div class="payment-details">
+        <p><strong>Bank Name:</strong> UBA</p>
+        <p><strong>Account Name:</strong> OLANIPEKUN PUBLISHERS LTD.</p>
+        <p><strong>Account Number:</strong> 1026392683</p>
+      </div>
+
+      <p class="note">
+        After payment, send proof of payment to
+        <br><strong>kelvinmeyeyin@gmail.com or +234-7034932603</strong>
+      </p>
+    </div>
+  </div>
+
+  <script src="js/enroll.js"></script>
+</body>
+</html>
