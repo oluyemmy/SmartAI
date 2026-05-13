@@ -1,0 +1,50 @@
+#######DEPLOYMENT.YAML#########
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: smartai-app
+  namespace: default
+  labels:
+    app: smartai-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: smartai-app
+  template:
+    metadata:
+      labels:
+        app: smartai-app
+    spec:
+      containers:
+        - name: smartai-app
+          image: lloyd03/smartai-app:2026-03-27-104445
+          ports:
+            - containerPort: 80
+
+
+
+
+---
+
+
+
+##########SERVICE.YAML#########
+apiVersion: v1
+kind: Service
+metadata:
+  name: smartai-service
+  namespace: default
+  labels:
+    app: smartai-app
+spec:
+  selector:
+    app: smartai-app
+
+  ports:
+    - name: http
+      protocol: TCP
+      port: 80
+      targetPort: 80
+
+  type: LoadBalancer
