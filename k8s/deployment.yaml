@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: smartai-app
-          image: lloyd03/smartai-app:2026-03-27-104445
+          image: lloyd03/smartai-app:2026-05-22-201228
           ports:
             - containerPort: 80
 
