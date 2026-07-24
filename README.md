@@ -200,18 +200,15 @@ Working through these issues helped me develop a more systematic approach to tro
 
 # 📸 Project Screenshots
 
-> Add screenshots here after uploading them to your repository.
 
 Suggested screenshots:
 
-- SmartAI Homepage
-- GitHub Actions Pipeline
-- Docker Image
-- Terraform Deployment
-- Kubernetes Pods
-- ArgoCD Dashboard
-- Prometheus Dashboard
-- Grafana Dashboard
+<img width="1405" height="805" alt="Screenshot 2026-05-23 at 12 00 29 AM" src="https://github.com/user-attachments/assets/50dce482-4860-4964-ad20-0acbed3a3e6c" />
+<img width="1389" height="744" alt="Screenshot 2026-05-22 at 11 59 02 PM" src="https://github.com/user-attachments/assets/fe3f2e13-8e97-4485-8c03-f88c631cee38" />
+<img width="1087" height="513" alt="Screenshot 2026-05-18 at 3 57 34 PM" src="https://github.com/user-attachments/assets/9c681487-688c-492b-856f-a12f8dff2b71" />
+<img width="1130" height="713" alt="Screenshot 2026-05-13 at 9 16 37 AM" src="https://github.com/user-attachments/assets/1b4b9a07-a273-41fe-9495-01e3078f4ec7" />
+<img width="1470" height="839" alt="Screenshot 2026-05-18 at 3 59 52 PM" src="https://github.com/user-attachments/assets/7ab11813-c787-47a5-b1ec-beaed2d93a10" />
+<img width="1405" height="744" alt="Screenshot 2026-05-23 at 12 00 10 AM" src="https://github.com/user-attachments/assets/8a0f18b2-fb42-4cbf-8b3e-61dd1491bf1c" />
 
 ---
 
